@@ -8,21 +8,38 @@
 	<div class="container">
 		<form action="action_page.php">
 
-			<label for="fname">First Name</label>
-			<input type="text" id="fname" name="firstname" placeholder="Your name..">
+			<label>Nama</label>
+			<input type="text" placeholder="Masukkan Nama..">
 
-			<label for="lname">Last Name</label>
-			<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+			<label>NIM</label>
+			<input type="text" placeholder="Masukkan Nim..">
 
-			<label for="country">Country</label>
-			<select id="country" name="country">
-				<option value="australia">Australia</option>
-				<option value="canada">Canada</option>
-				<option value="usa">USA</option>
+			<label>Fakultas</label>
+			<select>
+				<option>Saintek</option>
+				<option>Febi</option>
+				<option>Syariah</option>
+				<option>Ushuluddin</option>
+				<option>Tarbiyah</option>
+				<option>Dakwah</option>
+				<option>Kesehatan</option>
+			</select>
+			
+			<label>Program Studi</label>
+			<select>
+				<option>Sistem Informasi</option>
+				<option>Teknik Informatika</option>
+				<option>Arsitektur</option>
+				<option>Peternakan</option>
+				<option>Matematika</option>
+				<option>Kimia</option>
+				<option>Biologi</option>
+				<option>Fisika</option>
+				<option>PWK</option>
 			</select>
 
-			<label for="subject">Subject</label>
-			<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+			<label>Status Akademik</label>
+			
 
 			<input type="submit" value="Submit">
 
