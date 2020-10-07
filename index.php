@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Tugas 2 Pemrograman Web</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 	<div class="container">
