@@ -13,7 +13,7 @@
 			<input type="text" placeholder="Masukkan Nama..">
 
 			<label>NIM</label>
-			<input type="text" placeholder="Masukkan Nim..">
+			<input type="number" placeholder="Masukkan Nim..">
 
 			<label>Fakultas</label>
 			<select>
@@ -58,7 +58,7 @@
 	</div>
 </body>
 <style type="text/css">
-	input[type=text], select, textarea {
+	input[type=text], select {
 		width: 100%;
 		padding: 12px;
 		border: 1px solid #ccc;
