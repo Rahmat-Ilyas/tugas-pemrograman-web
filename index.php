@@ -58,7 +58,18 @@
 	</div>
 </body>
 <style type="text/css">
-	input[type=text], select, number {
+	input[type=text], select {
+		width: 100%;
+		padding: 12px;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+		box-sizing: border-box;
+		margin-top: 6px;
+		margin-bottom: 16px;
+		resize: vertical;
+	}
+	
+	input[type=number] {
 		width: 100%;
 		padding: 12px;
 		border: 1px solid #ccc;
@@ -69,7 +80,6 @@
 		resize: vertical;
 	}
 
-	
 	input[type=submit] {
 		background-color: #4CAF50;
 		color: white;
