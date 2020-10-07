@@ -58,7 +58,7 @@
 	</div>
 </body>
 <style type="text/css">
-	input[type=text], select {
+	input[type=text], select, number {
 		width: 100%;
 		padding: 12px;
 		border: 1px solid #ccc;
