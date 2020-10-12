@@ -55,7 +55,7 @@
 			<input type="reset" value="Reset">
 
 		</form>
-	</div>
+
 <?php if (isset($_POST['submit'])) { ?>
 <div>
 <h1>Tampilan Data Inputan</h1>
@@ -67,6 +67,8 @@
 <span>Status Akademin: <?= $_POST['status'] ?></span><br>
 </div>
 <?php } ?>
+
+	</div>
 </body>
 <style type="text/css">
 	input[type=text], select {
@@ -91,15 +93,6 @@
 		resize: vertical;
 	}
 
-	input[type=submit] {
-		background-color: #4CAF50;
-		color: white;
-		padding: 12px 20px;
-		border: none;
-		border-radius: 4px;
-		cursor: pointer;
-	}
-
         button[type=submit] {
 		background-color: #4CAF50;
 		color: white;
@@ -107,10 +100,6 @@
 		border: none;
 		border-radius: 4px;
 		cursor: pointer;
-	}
-
-	input[type=submit]:hover {
-		background-color: #45a049;
 	}
 
         button[type=submit]:hover {
