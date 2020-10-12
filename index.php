@@ -10,10 +10,10 @@
 		<form method="post">
 
 			<label>Nama</label>
-			<input type="text" name="nama" placeholder="Masukkan Nama..">
+			<input type="text" name="nama" placeholder="Masukkan Nama.." required>
 
 			<label>NIM</label>
-			<input type="number" name="nim" placeholder="Masukkan Nim..">
+			<input type="number" name="nim" placeholder="Masukkan Nim.." required>
 
 			<label>Fakultas</label>
 			<select name="fakultas">
@@ -41,7 +41,7 @@
 
 			<label>Status Akademik</label>
 			<div id="radio">
-				<input id="aktif" name="status" type="radio" value="Aktif">
+				<input id="aktif" name="status" type="radio" value="Aktif" checked>
 				<label for="aktif">Aktif</label>
 				<input id="lulus" name="status" type="radio" value="Lulus">
 				<label for="lulus">Lulus</label>
