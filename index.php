@@ -56,7 +56,7 @@
 
 		</form>
 	</div>
-<?php if (isset($_POST['submit']) { ?>
+<?php if (isset($_POST['submit'])) { ?>
 <div>
 <h1>Tampilan Data Inputan<h1>
 <hr>
