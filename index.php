@@ -10,13 +10,13 @@
 		<form action="action_page.php">
 
 			<label>Nama</label>
-			<input type="text" placeholder="Masukkan Nama..">
+			<input type="text" name="nama" placeholder="Masukkan Nama..">
 
 			<label>NIM</label>
-			<input type="number" placeholder="Masukkan Nim..">
+			<input type="number" name="nim" placeholder="Masukkan Nim..">
 
 			<label>Fakultas</label>
-			<select>
+			<select name="fakultas">
 				<option>Saintek</option>
 				<option>Febi</option>
 				<option>Syariah</option>
@@ -27,7 +27,7 @@
 			</select>
 			
 			<label>Program Studi</label>
-			<select>
+			<select name="jurusan">
 				<option>Sistem Informasi</option>
 				<option>Teknik Informatika</option>
 				<option>Arsitektur</option>
@@ -51,7 +51,7 @@
 				<label for="dropout">Dropout</label>
 			</div>
 
-			<input type="submit" value="Submit">
+			<input type="submit" name="submit" value="Submit">
 			<input type="reset" value="Reset">
 
 		</form>
