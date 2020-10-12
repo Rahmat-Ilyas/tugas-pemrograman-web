@@ -41,13 +41,13 @@
 
 			<label>Status Akademik</label>
 			<div id="radio">
-				<input id="aktif" name="status" type="radio">
+				<input id="aktif" name="status" type="radio" value="Aktif">
 				<label for="aktif">Aktif</label>
-				<input id="lulus" name="status" type="radio">
+				<input id="lulus" name="status" type="radio" value="Lulus">
 				<label for="lulus">Lulus</label>
-				<input id="nonaktif" name="status" type="radio">
+				<input id="nonaktif" name="status" type="radio" value="Non Aktif">
 				<label for="nonaktif">Non Aktif</label>
-				<input id="dropout" name="status" type="radio">
+				<input id="dropout" name="status" type="radio" value="Dropout">
 				<label for="dropout">Dropout</label>
 			</div>
 
@@ -56,7 +56,7 @@
 
 		</form>
 	</div>
-<php if (isset($_POST['submit']) { ?>
+<?php if (isset($_POST['submit']) { ?>
 <div>
 <h1>Tampilan Data Inputan<h1>
 <hr>
@@ -66,7 +66,7 @@
 <span>Program Studi: <?= $_POST['jurusan'] ?></span><br>
 <span>Status Akademin: <?= $_POST['status'] ?></span><br>
 </div>
-<php } ?>
+<?php } ?>
 </body>
 <style type="text/css">
 	input[type=text], select {
