@@ -7,7 +7,7 @@
 <body>
 	<div class="container">
 		<h1>Biodata</h1>
-		<form action="action_page.php">
+		<form method="post">
 
 			<label>Nama</label>
 			<input type="text" name="nama" placeholder="Masukkan Nama..">
@@ -51,7 +51,7 @@
 				<label for="dropout">Dropout</label>
 			</div>
 
-			<input type="submit" name="submit" value="Submit">
+			<button type="submit" name="submit" value="submit">Submit<\button>
 			<input type="reset" value="Reset">
 
 		</form>
@@ -100,7 +100,20 @@
 		cursor: pointer;
 	}
 
+        button[type=submit] {
+		background-color: #4CAF50;
+		color: white;
+		padding: 12px 20px;
+		border: none;
+		border-radius: 4px;
+		cursor: pointer;
+	}
+
 	input[type=submit]:hover {
+		background-color: #45a049;
+	}
+
+        button[type=submit]:hover {
 		background-color: #45a049;
 	}
 
