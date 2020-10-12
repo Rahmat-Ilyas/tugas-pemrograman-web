@@ -51,7 +51,7 @@
 				<label for="dropout">Dropout</label>
 			</div>
 
-			<button type="submit" name="submit" value="submit">Submit<\button>
+			<button type="submit" name="submit" value="submit">Submit</button>
 			<input type="reset" value="Reset">
 
 		</form>
@@ -60,11 +60,11 @@
 <div>
 <h1>Tampilan Data Inputan<h1>
 <hr>
-<span>Nama: <?= $_POST['nama'] ?>
-<span>NIM: <?= $_POST['nim'] ?>
-<span>Fakultas: <?= $_POST['fakultas'] ?>
-<span>Program Studi: <?= $_POST['jurusan'] ?>
-<span>Status Akademin: <?= $_POST['status'] ?>
+<span>Nama: <?= $_POST['nama'] ?></span><br>
+<span>NIM: <?= $_POST['nim'] ?></span><br>
+<span>Fakultas: <?= $_POST['fakultas'] ?></span><br>
+<span>Program Studi: <?= $_POST['jurusan'] ?></span><br>
+<span>Status Akademin: <?= $_POST['status'] ?></span><br>
 </div>
 <php } ?>
 </body>
