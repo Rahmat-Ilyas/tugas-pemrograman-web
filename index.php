@@ -58,7 +58,7 @@
 	</div>
 <?php if (isset($_POST['submit'])) { ?>
 <div>
-<h1>Tampilan Data Inputan<h1>
+<h1>Tampilan Data Inputan</h1>
 <hr>
 <span>Nama: <?= $_POST['nama'] ?></span><br>
 <span>NIM: <?= $_POST['nim'] ?></span><br>
